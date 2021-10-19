@@ -40,6 +40,7 @@ namespace dictionary
                 }
                 else
                 {
+                    Тут мав би бути цикл, поки користувач не введе слово
                     Console.WriteLine($"Your dictionary does not contain word {word}. Please, enter enter the meaning of this word: ");
                    inputText = inputText.Replace(word, Console.ReadLine());
                 }
